@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{color: aqua; background-color: black;
+            width: 100px; text-align: center;
+          }
+    </style>
+    <script>
+        
+        // switch ~case 문도 자바와 동일한 문법을 사용하고 
+        // 심지어 각 case별로 break;를 달아줘야 하는 점도 
+        // 같습니다.
+
+        var myarea = prompt("국가를 입력하세요", "대한민국");
+
+        // 아래 swtch ~ case문을 작성해주세요
+        // case에는 국가 이름이 들어가게 해 주시고
+        // 해당에는 국가의 수도가 브라우저 화면에 찍히게 해 주세요.
+        // 글씨핵깔은 aqua, 배경은 검은색으로 처리합니다.
+        // 국가는 5개입니다.
+       //  var area = prompt("국가를 입력하세요?", "한국")
+        switch (myarea){
+        case "미국" : document.write("<h1>워싱턴<h1/>")
+           
+        case "중국" : document.write("<h1>베이징<h1/>")
+            
+        case "영국" : document.write("<h1>런던<h1/>")
+           
+        case "태국" : document.write("<h1>방콕<h1/>")
+           
+        case "대한민국" : document.write("<h1>서울<h1/>")
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
